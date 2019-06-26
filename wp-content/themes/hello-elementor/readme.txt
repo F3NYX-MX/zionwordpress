@@ -3,8 +3,8 @@
 Contributors: elemntor, KingYes, ariel.k, jzaltzberg, mati1000, bainternet
 Requires at least: WordPress 4.7
 Tested up to: WordPress 5.2
-Stable tag: 2.1.1
-Version: 2.1.1
+Stable tag: 2.1.2
+Version: 2.1.2
 Requires PHP: 5.4
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -24,10 +24,15 @@ Screenshot's images & icons are licensed under: Creative Commons (CC0), https://
 
 == Installation ==
 
-1. In your admin panel, go to Appearance > Themes and click the 'Add New' button.
-2. Type in 'Hello Elementor' in the search form and hit the 'Enter' key on your keyboard.
-3. Click on the 'Activate' button to use your new theme right away.
-4. Navigate to Elementor and start building your site.
+1. In your site's admin panel, go to Appearance > Themes and click `Add New`.
+2. Type "Hello Elementor" in the search field.
+3. Click `Install` and then `Activate` to start using the theme.
+4. Navigate to Appearance > Customize in your admin panel and customize to your needs.
+5. A notice box may appear, recommending you to install Elementor Page Builder Plugin. You can either use it or any other editor.
+6. Create a new page, click `Edit with Elementor`.
+7. Once the Elementor Editor is launched, click on the library icon, pick one of the many ready-made templates and click `Insert`.
+8. Edit the page content as you wish, you can add, remove and manipulate any of the elements.
+9. Enjoy :)
 
 == Customizations ==
 
@@ -92,6 +97,10 @@ License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io/photo/4B83RD7BV9
 
 == Changelog ==
+
+= 2.1.2 - 2019-06-19 =
+* Tweak: Added theme version to enqueued styles
+* Tweak: Remove header tags with `hello_elementor_page_title` filter
 
 = 2.1.1 - 2019-06-13 =
 * Tweak: Rename `Install Elementor Now` button to `Install Elementor`

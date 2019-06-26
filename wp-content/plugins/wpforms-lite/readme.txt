@@ -3,7 +3,7 @@ Contributors: wpforms, jaredatch, smub, slaFFik
 Tags: contact form, contact form plugin, forms, form builder, custom form, contact button, contact me, custom contact form, form manager, form, forms builder, forms creator, captcha, recaptcha, Akismet, email form, web form, feedback form, payment form, survey form, donation form, email submit form, message form, mailchimp, mailchimp form, aweber, aweber form, paypal, paypal form, stripe, stripe form, getresponse, getresponse form, email subscription, contact form widget, user registration form, wordpress registration, wordpress login form, feedback
 Requires at least: 4.8
 Tested up to: 5.2
-Stable tag: 1.5.2.3
+Stable tag: 1.5.3.1
 Requires PHP: 5.3.3
 License: GNU General Public License v2.0 or later
 
@@ -377,6 +377,21 @@ You can get access to more features, addons and support by <a href="https://wpfo
 
 Yes, WPForms has full translation and localization support via the wpforms textdomain. All .mo and .po translation files should go into the languages folder in the base of the plugin. The same is true for every WPForms Addon as well.
 
+= Does WPForms include spam protection? =
+
+Yes, WPForms includes a spam "honeypot" which is enabled on all forms by default.
+
+Additionally, Google reCAPTCHA is also supported and can be setup at WPForms > Settings > reCAPTCHA.
+
+WPForms is fully compatible with all versions of Google reCAPTCHA:
+
+* Checkbox reCAPTCHA v2
+* Invisible reCAPTCHA v2
+* reCAPTCHA v3
+
+Lastly, <a href="https://wpforms.com/addons/custom-catpcha-addon/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend">Custom Captchas</a> are available which allow you to create math or question based captchas for your contact forms.
+
+
 == Notes ==
 
 WPForms is absolutely, positively the most <a href="https://wpforms.com/?utm_source=wprepo&utm_medium=link&utm_campaign=liteversion" rel="friend" title="Best WordPress contact form plugin">beginner friendly WordPress contact form plugin</a> on the market. It is both easy and powerful.
@@ -392,6 +407,20 @@ Thank you
 Syed Balkhi
 
 == Changelog ==
+
+= 1.5.3.1 =
+- Fixed: Checkbox field validation issue when field is not required.
+
+= 1.5.3 =
+- Added: AJAX form submissions.
+- Added: Full support and compatiblity with Google AMP.
+- Added: Google reCAPTCHA v3.
+- Changed: WPForms uninstall script for better cleanup process.
+- Changed: Email field mailcheck feature to offer additional controls. New filters: `wpforms_mailcheck_enabled`, `wpforms_mailcheck_domains`, and `wpforms_mailcheck_toplevel_domains`.
+- Fixed: Special characters aren't encoded when Smart Tags are processed in query string.
+- Fixed: Fields with Image choices are not working with some Android and older desktop browsers.
+- Fixed: Form Builder: Several alert modals are displayed in batch if multiple providers have configuration issues.
+- Fixed: WP_Post object is returned from `wpforms()->form->get()` if form data is requested with a non-WPForms post ID.
 
 = 1.5.2.3 =
 - Fixed: PHP error if checkbox field is empty when form is submitted.
