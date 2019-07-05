@@ -88,7 +88,6 @@ class Ocean_Extra_My_Library {
 			'exclude_from_search'   	=> true,
 			'capability_type' 			=> 'post',
 			'rewrite' 					=> false,
-			'show_in_rest' 				=> true,
 			'supports' 					=> array( 'title', 'editor', 'thumbnail', 'author', 'elementor' ),
 		) ) );
 

@@ -196,6 +196,8 @@ if (!class_exists('Ocean_Extra_Theme_Wizard')):
         }
 
         public function ocean_wizard_setup() {
+           if (!current_user_can('manage_options'))
+                return;
             if (empty($_GET['page']) || 'owp_setup' !== $_GET['page']) { // WPCS: CSRF ok, input var ok.
                 return;
             }
@@ -560,6 +562,7 @@ if (!class_exists('Ocean_Extra_Theme_Wizard')):
 
             <div class="owp-customize-wrap owp-wrap">
                 <form method="POST" name="owp-customize-form">
+                    <?php wp_nonce_field('owp_customize_form'); ?>
                     <div class="field-group">
                         <?php
                         $custom_logo = get_theme_mod("custom_logo");
@@ -711,7 +714,9 @@ if (!class_exists('Ocean_Extra_Theme_Wizard')):
          * Save Info In Step3
          */
         public function save_ocean_customize() {
-            if (isset($_POST['ocean-logo']))
+
+            if ( current_user_can('manage_options') && isset($_REQUEST['_wpnonce']) &&wp_verify_nonce($_REQUEST['_wpnonce'], 'owp_customize_form')){
+                if (isset($_POST['ocean-logo']))
                 set_theme_mod('custom_logo', $_POST['ocean-logo']);
 
             if (isset($_POST['ocean-retina-logo']))
@@ -743,83 +748,88 @@ if (!class_exists('Ocean_Extra_Theme_Wizard')):
 
             wp_safe_redirect($this->get_next_step_link());
             exit;
+        }else
+        {
+            print  'Your are not authorized to submit this form';
+            exit;
+        }
         }
 
         /**
          * Step 4 ready step
          */
         public function ocean_ready_setup() {
-            $user_email = $this->get_current_user_email();
-            ?>
+                $user_email = $this->get_current_user_email();
+                ?>
 
-            <div class="owp-ready-wrap owp-wrap">
-                <h2><?php esc_attr_e("Your website is ready", 'ocean-extra'); ?></h2>
-                <h1 style="font-size: 30px;"><?php esc_attr_e("Get the extension bundle for free!", 'ocean-extra'); ?></h1>
-                <p style="font-size: 14px;"><?php esc_attr_e("Win the Core Extension Bundle by entering our giveaway. Every month we randomly draw 5 people that get the full suite of pro extensions for free. Enter with your email below.", 'ocean-extra'); ?></p>
-                <div class="owp-newsletter">
-                    <p><?php esc_attr_e("Input your email below to get the chance to win.", 'ocean-extra'); ?></p>
+                <div class="owp-ready-wrap owp-wrap">
+                    <h2><?php esc_attr_e("Your website is ready", 'ocean-extra'); ?></h2>
+                    <h1 style="font-size: 30px;"><?php esc_attr_e("Get the extension bundle for free!", 'ocean-extra'); ?></h1>
+                    <p style="font-size: 14px;"><?php esc_attr_e("Win the Core Extension Bundle by entering our giveaway. Every month we randomly draw 5 people that get the full suite of pro extensions for free. Enter with your email below.", 'ocean-extra'); ?></p>
+                    <div class="owp-newsletter">
+                        <p><?php esc_attr_e("Input your email below to get the chance to win.", 'ocean-extra'); ?></p>
 
-                    <form id="owp_email_signup" class="klaviyo_styling klaviyo_gdpr_embed_J7zjRA" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
-                        <input type="hidden" name="g" value="J7zjRA">
-                        <input type="hidden" name="$fields" value="owp_use">
+                        <form id="owp_email_signup" class="klaviyo_styling klaviyo_gdpr_embed_J7zjRA" action="//manage.kmail-lists.com/subscriptions/subscribe" data-ajax-submit="//manage.kmail-lists.com/ajax/subscriptions/subscribe" method="GET" target="_blank" novalidate="novalidate">
+                            <input type="hidden" name="g" value="J7zjRA">
+                            <input type="hidden" name="$fields" value="owp_use">
 
-                        <div class="klaviyo_field_group">
-                            <input class="" type="email" value="<?php echo esc_attr($user_email); ?>" name="email" id="k_id_email" placeholder="<?php esc_attr_e('Email address', 'ocean-extra'); ?>"/>
+                            <div class="klaviyo_field_group">
+                                <input class="" type="email" value="<?php echo esc_attr($user_email); ?>" name="email" id="k_id_email" placeholder="<?php esc_attr_e('Email address', 'ocean-extra'); ?>"/>
 
-                            <div class="klaviyo_field_group klaviyo_form_actions klaviyo_form_checkboxes">
-                                <div class="klaviyo_helptext"><?php esc_html_e('What&rsquo;s your intended use of OceanWP?', 'ocean-extra'); ?></div>
+                                <div class="klaviyo_field_group klaviyo_form_actions klaviyo_form_checkboxes">
+                                    <div class="klaviyo_helptext"><?php esc_html_e('What&rsquo;s your intended use of OceanWP?', 'ocean-extra'); ?></div>
 
-                                <label for="consent-ecommerce"><input type="checkbox" name="owp_use" id="consent-ecommerce" value="ecommerce"><?php esc_html_e('E-Commerce', 'ocean-extra'); ?></label>
-                                <label for="consent-agency"><input type="checkbox" name="owp_use" id="consent-agency" value="agency"><?php esc_html_e('Agency', 'ocean-extra'); ?></label>
-                                <label for="consent-blog"><input type="checkbox" name="owp_use" id="consent-blog" value="blog"><?php esc_html_e('Blog', 'ocean-extra'); ?></label>
-                                <label for="consent-other"><input type="checkbox" name="owp_use" id="consent-other" value="other"><?php esc_html_e('Other', 'ocean-extra'); ?></label>
+                                    <label for="consent-ecommerce"><input type="checkbox" name="owp_use" id="consent-ecommerce" value="ecommerce"><?php esc_html_e('E-Commerce', 'ocean-extra'); ?></label>
+                                    <label for="consent-agency"><input type="checkbox" name="owp_use" id="consent-agency" value="agency"><?php esc_html_e('Agency', 'ocean-extra'); ?></label>
+                                    <label for="consent-blog"><input type="checkbox" name="owp_use" id="consent-blog" value="blog"><?php esc_html_e('Blog', 'ocean-extra'); ?></label>
+                                    <label for="consent-other"><input type="checkbox" name="owp_use" id="consent-other" value="other"><?php esc_html_e('Other', 'ocean-extra'); ?></label>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="klaviyo_form_actions">
-                            <button type="submit" class="klaviyo_submit_button"><?php esc_html_e('Enter Now', 'ocean-extra'); ?></button>
+                            <div class="klaviyo_form_actions">
+                                <button type="submit" class="klaviyo_submit_button"><?php esc_html_e('Enter Now', 'ocean-extra'); ?></button>
 
-                            <div class="klaviyo_helptext klaviyo_gdpr_text">
-                                <?php echo
-                                sprintf(
-                                    esc_html__( 'By entering your email, you agree to our %1$sTerms of Services%2$s and %3$sPrivacy Policy%4$s.', 'ocean-extra' ),
-                                    '<a href="https://oceanwp.org/terms-and-conditions/" target="_blank">',
-                                    '</a>',
-                                    '<a href="https://oceanwp.org/privacy-policy/" target="_blank">',
-                                    '</a>'
-                                ); ?>
+                                <div class="klaviyo_helptext klaviyo_gdpr_text">
+                                    <?php echo
+                                    sprintf(
+                                        esc_html__( 'By entering your email, you agree to our %1$sTerms of Services%2$s and %3$sPrivacy Policy%4$s.', 'ocean-extra' ),
+                                        '<a href="https://oceanwp.org/terms-and-conditions/" target="_blank">',
+                                        '</a>',
+                                        '<a href="https://oceanwp.org/privacy-policy/" target="_blank">',
+                                        '</a>'
+                                    ); ?>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="klaviyo_messages">
-                            <div class="success_message" style="display:none;"><?php esc_html_e('Thank you for participating!', 'ocean-extra'); ?></div>
-                            <div class="error_message" style="display:none;"></div>
-                        </div>
-                    </form>
+                            <div class="klaviyo_messages">
+                                <div class="success_message" style="display:none;"><?php esc_html_e('Thank you for participating!', 'ocean-extra'); ?></div>
+                                <div class="error_message" style="display:none;"></div>
+                            </div>
+                        </form>
 
-                    <script type="text/javascript" src="//www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
-                    <script type="text/javascript">
-                        KlaviyoSubscribe.attachToForms('#owp_email_signup', {
-                            custom_success_message: true,
-                            success: function ($form) {
-                                jQuery('.owp-wizard-setup-actions a').attr('href', "<?php echo esc_url(( add_query_arg(array('owp_wizard_hide_notice' => 'install', 'show' => '1',), admin_url()))); ?>")
-                            },
-                            extra_properties: {
-                                $source: '$embed',
-                                $method_type: "Klaviyo Form",
-                                $method_id: 'embed',
-                                $consent_version: 'Embed default text'
-                            }
-                        });
+                        <script type="text/javascript" src="//www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
+                        <script type="text/javascript">
+                            KlaviyoSubscribe.attachToForms('#owp_email_signup', {
+                                custom_success_message: true,
+                                success: function ($form) {
+                                    jQuery('.owp-wizard-setup-actions a').attr('href', "<?php echo esc_url(( add_query_arg(array('owp_wizard_hide_notice' => 'install', 'show' => '1',), admin_url()))); ?>")
+                                },
+                                extra_properties: {
+                                    $source: '$embed',
+                                    $method_type: "Klaviyo Form",
+                                    $method_id: 'embed',
+                                    $consent_version: 'Embed default text'
+                                }
+                            });
 
-                    </script>
+                        </script>
+                    </div>
+
+                    <div class="owp-wizard-setup-actions">
+                        <a class="button button-next button-large" href="<?php echo esc_url(( add_query_arg(array('owp_wizard_hide_notice' => '2nd_notice', 'show' => '1',), admin_url()))); ?>"><?php esc_html_e('View Your Website', 'ocean-extra'); ?></a>
+                    </div>
                 </div>
-
-                <div class="owp-wizard-setup-actions">
-                    <a class="button button-next button-large" href="<?php echo esc_url(( add_query_arg(array('owp_wizard_hide_notice' => '2nd_notice', 'show' => '1',), admin_url()))); ?>"><?php esc_html_e('View Your Website', 'ocean-extra'); ?></a>
-                </div>
-            </div>
-            <?php
+                <?php
         }
 
         /**

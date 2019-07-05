@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Ocean Extra - Development (trunk) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-05-20 07:53:56+0000\n"
+"PO-Revision-Date: 2019-07-02 10:44:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,18 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Ocean Extra - Development (trunk)\n"
+
+#: includes/panel/notice.php:58
+msgid "Enter now"
+msgstr "Participa ahora"
+
+#: includes/wizard/wizard.php:758
+msgid "Win the Core Extension Bundle by entering our giveaway. Every month we randomly draw 5 people that get the full suite of pro extensions for free. Enter with your email below."
+msgstr "Gana el Core Extension Bundle entrando en nuestra promoción. Cada mes elegimos al azar a 5 personas para que consigan gratis la solución completa de extensiones pro. Introduce tu correo electrónico a continuación."
+
+#: includes/wizard/wizard.php:757
+msgid "Get the extension bundle for free!"
+msgstr "¡Consigue gratis el paquete de extensiones!"
 
 #: includes/wizard/wizard.php:760
 msgid "Input your email below to get the chance to win."
@@ -224,7 +236,7 @@ msgstr "Bienvenido"
 msgid "Skip setup"
 msgstr "Saltar instalador"
 
-#: includes/panel/theme-panel.php:361 includes/wizard/wizard.php:118
+#: includes/wizard/wizard.php:118 includes/panel/theme-panel.php:361
 msgid "Run the Setup Wizard"
 msgstr "Ejecutar el asistente de configuración"
 
@@ -260,7 +272,7 @@ msgstr "Vale, te lo mereces"
 msgid "I want to win"
 msgstr "Quiero ganar"
 
-#: includes/panel/notice.php:55 includes/wizard/wizard.php:131
+#: includes/wizard/wizard.php:131 includes/panel/notice.php:55
 msgid "Thank you for installing OceanWP! As a gesture of our appreciation, here&rsquo;s your chance to win our best-selling %1$sCore Extension Bundle%2$s, which includes more than 14 premium extensions that&rsquo;ll enhance this website with state-of-the-art functionality. 5 winners are selected each month, so sign up today, you&rsquo;ve got nothing to lose!"
 msgstr "¡Gracias por instalar Ocean WP! Como gesto de agradecimiento, te damos la oportunidad de ganar nuestro exitoso %1$sCore Extension Bundle%2$s, que incluye más de 14 extensiones premiun que mejorarán esta web con las funcionalidades más modernas. Cada mes seleccionamos 5 ganadores, así que regístrate hoy, ¡no tienes nada que perder!"
 
@@ -627,11 +639,11 @@ msgstr "Obtener esta extensión"
 msgid "See the result"
 msgstr "Mirar el resultado"
 
-#: includes/panel/demos.php:996 includes/wizard/classes/WizardAjax.php:116
+#: includes/wizard/classes/WizardAjax.php:116 includes/panel/demos.php:996
 msgid "Demo Imported!"
 msgstr "¡Demo importada!"
 
-#: includes/panel/demos.php:990 includes/wizard/classes/WizardAjax.php:110
+#: includes/wizard/classes/WizardAjax.php:110 includes/panel/demos.php:990
 msgid "The import process could take some time, please be patient"
 msgstr "El proceso de importación puede tomar un tiempo, por favor, se paciente"
 
@@ -639,23 +651,23 @@ msgstr "El proceso de importación puede tomar un tiempo, por favor, se paciente
 msgid "Install this demo"
 msgstr "Instalar esta demo"
 
-#: includes/panel/demos.php:970 includes/wizard/classes/WizardAjax.php:97
+#: includes/wizard/classes/WizardAjax.php:97 includes/panel/demos.php:970
 msgid "Import Widgets"
 msgstr "Importar widgets"
 
-#: includes/panel/demos.php:963 includes/wizard/classes/WizardAjax.php:90
+#: includes/wizard/classes/WizardAjax.php:90 includes/panel/demos.php:963
 msgid "Import Customizer Settings"
 msgstr "Importar ajustes del personalizador"
 
-#: includes/panel/demos.php:956 includes/wizard/classes/WizardAjax.php:83
+#: includes/wizard/classes/WizardAjax.php:83 includes/panel/demos.php:956
 msgid "pages, posts, images, menus, etc..."
 msgstr "páginas, artículos, imágenes, menús, etc..."
 
-#: includes/panel/demos.php:956 includes/wizard/classes/WizardAjax.php:83
+#: includes/wizard/classes/WizardAjax.php:83 includes/panel/demos.php:956
 msgid "Import XML Data"
 msgstr "Importar datos XML"
 
-#: includes/panel/demos.php:950 includes/wizard/classes/WizardAjax.php:77
+#: includes/wizard/classes/WizardAjax.php:77 includes/panel/demos.php:950
 msgid "Select what you want to import:"
 msgstr "Selecciona qué quieres importar:"
 
@@ -663,31 +675,31 @@ msgstr "Selecciona qué quieres importar:"
 msgid "Go to the next step"
 msgstr "Ir al siguiente paso"
 
-#: includes/panel/demos.php:930 includes/wizard/classes/WizardAjax.php:57
+#: includes/wizard/classes/WizardAjax.php:57 includes/panel/demos.php:930
 msgid "For your site to look exactly like this demo, the plugins below need to be activated."
 msgstr "Para que tu sitio se vea exactamente como esta demo, necesitas activar el siguiente plugin."
 
-#: includes/panel/demos.php:929 includes/wizard/classes/WizardAjax.php:56
+#: includes/wizard/classes/WizardAjax.php:56 includes/panel/demos.php:929
 msgid "Required Plugins"
 msgstr "Plugins necesarios"
 
-#: includes/panel/demos.php:923 includes/wizard/classes/WizardAjax.php:51
+#: includes/wizard/classes/WizardAjax.php:51 includes/panel/demos.php:923
 msgid "Importing demo data allow you to quickly edit everything instead of creating content from scratch. It is recommended uploading sample data on a fresh WordPress install to prevent conflicts with your current content. You can use this plugin to reset your site if needed: %1$sWordpress Database Reset%2$s."
 msgstr "Realizar la importación de datos de ejemplo te permite editar todo en vez de crear contenido desde cero. Se recomienda subir los datos de ejemplo en una instalación limpia de WordPress para evitar conflictos. Puedes usar este plugin para restablecer tu sitio si es necesario: %1$sWordpress Database Reset%2$s."
 
-#: includes/panel/demos.php:917 includes/wizard/classes/WizardAjax.php:44
+#: includes/wizard/classes/WizardAjax.php:44 includes/panel/demos.php:917
 msgid "Import the %1$s demo"
 msgstr "Importar la demo %1$s"
 
-#: includes/panel/demos.php:109 includes/wizard/wizard.php:239
+#: includes/wizard/wizard.php:239 includes/panel/demos.php:109
 msgid "Active"
 msgstr "Activado"
 
-#: includes/panel/demos.php:108 includes/wizard/wizard.php:238
+#: includes/wizard/wizard.php:238 includes/panel/demos.php:108
 msgid "Activating"
 msgstr "Activando"
 
-#: includes/panel/demos.php:107 includes/wizard/wizard.php:237
+#: includes/wizard/wizard.php:237 includes/panel/demos.php:107
 msgid "There was a problem during the importing process resulting in the following error from your server:"
 msgstr "Hubo un problema durante el proceso de importación, resultando en el siguiente error desde tu servidor:"
 
@@ -898,8 +910,8 @@ msgstr "Los detalles se muestran arriba. El importador ahora intentará otra vez
 msgid "Install Demos"
 msgstr "Instalar demos"
 
-#: includes/panel/classes/class-install-demos.php:112
 #: includes/wizard/wizard.php:517
+#: includes/panel/classes/class-install-demos.php:112
 msgid "Live Preview"
 msgstr "Vista previa"
 
@@ -1270,7 +1282,7 @@ msgstr "Anchura máxima (px)"
 msgid "Select a custom retina logo on this page/post."
 msgstr "Selecciona un logo retina personalizado en esta página/entrada."
 
-#: includes/metabox/metabox.php:827 includes/wizard/wizard.php:606
+#: includes/wizard/wizard.php:606 includes/metabox/metabox.php:827
 msgid "Retina Logo"
 msgstr "Logo Retina"
 
@@ -1278,8 +1290,8 @@ msgstr "Logo Retina"
 msgid "Select a custom logo on this page/post."
 msgstr "Selecciona un logo personalizado en esta página/entrada."
 
-#: includes/metabox/metabox.php:800 includes/metabox/metabox.php:810
-#: includes/wizard/wizard.php:577
+#: includes/wizard/wizard.php:577 includes/metabox/metabox.php:800
+#: includes/metabox/metabox.php:810
 msgid "Logo"
 msgstr "Logo"
 
@@ -1315,8 +1327,8 @@ msgstr "Menú Superior"
 msgid "Transparent"
 msgstr "Transparente"
 
-#: includes/metabox/metabox.php:742 includes/widgets/social-share.php:356
-#: includes/widgets/social-share.php:374
+#: includes/widgets/social-share.php:356 includes/widgets/social-share.php:374
+#: includes/metabox/metabox.php:742
 msgid "Minimal"
 msgstr "Mínimo"
 
@@ -1392,7 +1404,7 @@ msgstr "Este estilo es todo el CSS para los efectos de los enlaces del menú pri
 msgid "Links Effect"
 msgstr "Efecto de enlaces"
 
-#: includes/panel/library.php:164 includes/panel/library.php:191
+#: includes/panel/library.php:163 includes/panel/library.php:190
 msgid "Shortcode"
 msgstr "Shortcode"
 
@@ -1643,7 +1655,7 @@ msgstr "Peso de la fuente tipográfica"
 msgid "Font Family"
 msgstr "Familia tipográfica"
 
-#: includes/panel/notice.php:58 includes/wizard/wizard.php:134
+#: includes/wizard/wizard.php:134 includes/panel/notice.php:58
 msgid "No thanks"
 msgstr "No, gracias"
 
@@ -1854,23 +1866,23 @@ msgstr "Obtener este módulo"
 msgid "By"
 msgstr "Por"
 
+#: includes/panel/demos.php:1025
 #: includes/panel/assets/class-plugin-installer.php:73
 #: includes/panel/assets/class-plugin-installer.php:152
 #: includes/panel/assets/class-plugin-installer.php:513
-#: includes/panel/demos.php:1025
 msgid "Activate"
 msgstr "Activar"
 
+#: includes/panel/demos.php:1036
 #: includes/panel/assets/class-plugin-installer.php:69
 #: includes/panel/assets/class-plugin-installer.php:148
 #: includes/panel/assets/class-plugin-installer.php:514
-#: includes/panel/demos.php:1036
 msgid "Activated"
 msgstr "Activo"
 
+#: includes/panel/demos.php:1031
 #: includes/panel/assets/class-plugin-installer.php:39
 #: includes/panel/assets/class-plugin-installer.php:512
-#: includes/panel/demos.php:1031
 msgid "Install Now"
 msgstr "Instalar"
 
@@ -1878,7 +1890,7 @@ msgstr "Instalar"
 msgid "Links Color: Hover"
 msgstr "Color del vínculo: Hover"
 
-#: includes/metabox/metabox.php:1557 includes/wizard/wizard.php:685
+#: includes/wizard/wizard.php:685 includes/metabox/metabox.php:1557
 msgid "Links Color"
 msgstr "Color de los enlaces"
 
@@ -2086,8 +2098,8 @@ msgstr "<strong>Los ajustes de los iconos de menú</strong> han sido restablecid
 msgid "<strong>Menu Icons Settings</strong> have been successfully updated."
 msgstr "<strong>Los ajustes de los iconos de menú</strong> han sido actualizados correctamente."
 
+#: includes/wizard/wizard.php:518 includes/menu-icons/includes/settings.php:594
 #: includes/menu-icons/includes/picker.php:78
-#: includes/menu-icons/includes/settings.php:594 includes/wizard/wizard.php:518
 msgid "Select"
 msgstr "Seleccionar"
 
@@ -2095,9 +2107,9 @@ msgstr "Seleccionar"
 msgid "Icon:"
 msgstr "Icono:"
 
+#: includes/widgets/custom-menu.php:326
 #: includes/menu-icons/includes/picker.php:48
 #: includes/menu-icons/includes/picker.php:112
-#: includes/widgets/custom-menu.php:326
 msgid "Icon"
 msgstr "Icono"
 
@@ -2590,8 +2602,8 @@ msgstr "Actividad"
 msgid "Pinned"
 msgstr "Anclado"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:371
 #: includes/metabox/butterbean/inc/controls/class-control-datetime.php:88
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:371
 msgid "Month"
 msgstr "Mes"
 
@@ -2599,8 +2611,8 @@ msgstr "Mes"
 msgid "Week"
 msgstr "Semana"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:361
 #: includes/metabox/butterbean/inc/controls/class-control-datetime.php:112
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:361
 msgid "Day"
 msgstr "Día"
 
@@ -3073,8 +3085,8 @@ msgstr "Lista desordenada"
 msgid "List: Number"
 msgstr "Lista ordenada"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:380
 #: includes/widgets/social.php:424
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:380
 msgid "Background Color"
 msgstr "Color de Fondo"
 
@@ -3266,8 +3278,8 @@ msgstr "Sin Clasificar"
 msgid "University"
 msgstr "Universidad"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:577
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3519
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:577
 msgid "Umbrella"
 msgstr "Paraguas"
 
@@ -3275,9 +3287,9 @@ msgstr "Paraguas"
 msgid "TTY"
 msgstr "TTY"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3509
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:272
 #: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1155
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3509
 msgid "Trophy"
 msgstr "Trofeo"
 
@@ -3319,8 +3331,8 @@ msgstr "Alternar abajo"
 msgid "Times"
 msgstr "Tiempos"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1145
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3434
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1145
 msgid "Ticket"
 msgstr "Ticket"
 
@@ -3371,10 +3383,10 @@ msgid "Star Half"
 msgstr "Estrella al medio"
 
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:541
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:892
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:830
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3319
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3344
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:892
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:830
 msgid "Star"
 msgstr "Estrella"
 
@@ -3455,8 +3467,8 @@ msgstr "Ducha"
 msgid "Shopping Basket"
 msgstr "Cesta de compras"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:345
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3209
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:345
 msgid "Shopping Bag"
 msgstr "Carrito"
 
@@ -3525,14 +3537,14 @@ msgstr "Enchufe"
 msgid "Percent"
 msgstr "Porcentaje"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1095
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2999
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1095
 msgid "Paw"
 msgstr "Huella"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:867
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2989
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2994
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:867
 msgid "Paper Plane"
 msgstr "Avión de papel"
 
@@ -3565,16 +3577,16 @@ msgstr "Luna"
 msgid "Mobile Phone"
 msgstr "Teléfono móvil"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:235
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2944
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:235
 msgid "Mobile"
 msgstr "Móvil"
 
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:506
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:672
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:230
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2924
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2929
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:672
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:230
 msgid "Microphone"
 msgstr "Micrófono"
 
@@ -3594,10 +3606,10 @@ msgstr "Marcadores de mapa"
 msgid "Map Pin"
 msgstr "Pin en mapa"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:147
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1070
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2889
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2894
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:147
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1070
 msgid "Map"
 msgstr "Mapa"
 
@@ -3728,10 +3740,10 @@ msgstr "El Fax"
 msgid "Eye Dropper"
 msgstr "Cuentagotas"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:807
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:645
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2524
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2529
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:807
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:645
 msgid "Eye"
 msgstr "Ojo"
 
@@ -3740,10 +3752,10 @@ msgstr "Ojo"
 msgid "External Link"
 msgstr "Enlace externo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:262
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2499
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2504
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2509
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:262
 msgid "Exclamation"
 msgstr "Exclamación"
 
@@ -3757,13 +3769,13 @@ msgstr "Intercambiar"
 msgid "Ellipsis"
 msgstr "Puntos suspensivos"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:517
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2439
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:517
 msgid "Diamond"
 msgstr "Diamante"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:625
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2429
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:625
 msgid "Database"
 msgstr "Base de datos"
 
@@ -3771,8 +3783,8 @@ msgstr "Base de datos"
 msgid "Cutlery"
 msgstr "Cubertería"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:322
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2414
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:322
 msgid "Cursor"
 msgstr "Cursor"
 
@@ -3806,14 +3818,14 @@ msgid "Code Fork"
 msgstr "Copiar código"
 
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:426
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:797
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2324
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:797
 msgid "Cloud Upload"
 msgstr "Subir a la nube"
 
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:421
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:792
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2319
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:792
 msgid "Cloud Download"
 msgstr "Descarga de la nube"
 
@@ -3833,8 +3845,8 @@ msgstr "Flecha abajo cesta de la compra"
 msgid "Camera Retro"
 msgstr "Cámara retro"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:527
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2204
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:527
 msgid "Calculator"
 msgstr "Calculadora"
 
@@ -3886,8 +3898,8 @@ msgstr "Bañera"
 msgid "Bars"
 msgstr "Barras"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:772
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2069
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:772
 msgid "Ban"
 msgstr "Bloquear"
 
@@ -3900,9 +3912,9 @@ msgid "At"
 msgstr "En"
 
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:651
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2029
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:412
 #: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:950
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2029
 msgid "Anchor"
 msgstr "Texto de enlace"
 
@@ -3940,18 +3952,18 @@ msgstr "Encabezamiento de la tabla"
 msgid "Table"
 msgstr "Tabla"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:385
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1860
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:385
 msgid "Superscript"
 msgstr "Superíndice"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:390
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1855
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:390
 msgid "Subscript"
 msgstr "Subíndice"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:510
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1845
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:510
 msgid "Save"
 msgstr "Guardar"
 
@@ -3959,8 +3971,8 @@ msgstr "Guardar"
 msgid "Paragraph"
 msgstr "Párrafo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:790
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1825
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:790
 msgid "Paperclip"
 msgstr "Clip"
 
@@ -3989,8 +4001,8 @@ msgstr "Copiar"
 msgid "Columns"
 msgstr "Columnas"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:990
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1735
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:990
 msgid "Clipboard"
 msgstr "Portapapeles"
 
@@ -4018,8 +4030,8 @@ msgstr "Espacio shuttle"
 msgid "Ship"
 msgstr "Barco"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:627
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1663
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:627
 msgid "Rocket"
 msgstr "Rocket"
 
@@ -4195,7 +4207,6 @@ msgstr "Chevron círculo izquierdo"
 msgid "Chevron Circle Down"
 msgstr "Chevron Circulo abajo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:38
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1144
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1149
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1154
@@ -4204,6 +4215,7 @@ msgstr "Chevron Circulo abajo"
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2039
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2044
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2049
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:38
 msgid "Arrows"
 msgstr "Flechas"
 
@@ -4259,8 +4271,8 @@ msgstr "Ángulo izquierdo"
 msgid "Angle Down"
 msgstr "Ángulo hacia abajo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:300
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1037
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:300
 msgid "Yen"
 msgstr "Yen"
 
@@ -4297,19 +4309,19 @@ msgstr "Libra"
 msgid "Euro"
 msgstr "Euro"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:285
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:982
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:285
 msgid "Dollar"
 msgstr "Dolar"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:977
 #: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:275
 #: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:280
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:977
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:637
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:970
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:637
 msgid "Pie Chart"
 msgstr "Gráfico circular"
 
@@ -4385,8 +4397,8 @@ msgstr "Sexos"
 msgid "Form Controls"
 msgstr "Controles del formulario"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:54
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:67
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:54
 msgid "File Types"
 msgstr "Tipos de archivo"
 
@@ -4402,8 +4414,8 @@ msgstr "Listas"
 msgid "Brand"
 msgstr "Marca"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:34
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:47
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:34
 msgid "Accessibility"
 msgstr "Accesibilidad"
 
@@ -4411,9 +4423,9 @@ msgstr "Accesibilidad"
 msgid "Open Source"
 msgstr "Open Source"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:596
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1307
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1312
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:596
 msgid "Website"
 msgstr "Sitio web"
 
@@ -4425,43 +4437,43 @@ msgstr "Inicio (iPhone)"
 msgid "Bookmark Empty"
 msgstr "Marcador vacío"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:575
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:985
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1267
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2159
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2164
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1267
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:575
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:985
 msgid "Bookmark"
 msgstr "Marcador"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:130
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:171
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1262
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:171
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:130
 msgid "Universal Access"
 msgstr "Acceso universal"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:572
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:855
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3644
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1252
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1257
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3644
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:572
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:855
 msgid "Wrench"
 msgstr "Llave inglesa"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:160
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1247
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1698
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1703
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1247
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:160
 msgid "Wheelchair"
 msgstr "Silla de ruedas"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1160
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1242
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1160
 msgid "Torso"
 msgstr "Torso"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:351
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1232
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1237
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:351
 msgid "Time"
 msgstr "Tiempo"
 
@@ -4473,18 +4485,18 @@ msgstr "Miniaturas (lista)"
 msgid "Thumbnails (Large)"
 msgstr "Miniaturas (grandes)"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:835
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1217
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:835
 msgid "Thumbnails"
 msgstr "Miniaturas"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1212
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:356
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:82
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3549
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3554
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3559
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3564
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1212
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:82
 msgid "User"
 msgstr "Usuario"
 
@@ -4492,8 +4504,8 @@ msgstr "Usuario"
 msgid "Speaker"
 msgstr "Ponente"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3234
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1192
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3234
 msgid "Signal"
 msgstr "Señal"
 
@@ -4501,9 +4513,9 @@ msgstr "Señal"
 msgid "Shopping Cart Sign"
 msgstr "Signo de carrito de compras"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:350
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3204
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1182
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3204
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:350
 msgid "Shopping Cart"
 msgstr "Carrito de la compra"
 
@@ -4525,38 +4537,38 @@ msgstr "Tijeras"
 msgid "Quotes"
 msgstr "Citas"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3074
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1142
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3074
 msgid "QR Code"
 msgstr "Código QR"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1137
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:432
 #: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1115
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1137
 msgid "Puzzle"
 msgstr "Puzzle"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3059
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1132
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3059
 msgid "Podcast"
 msgstr "Podcast"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:287
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1658
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1127
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1658
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:287
 msgid "Plane"
 msgstr "Avión"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:526
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:457
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3034
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1122
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:526
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3034
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:457
 msgid "Picture"
 msgstr "Foto"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:500
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1112
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1117
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:500
 msgid "Photo"
 msgstr "Imagen"
 
@@ -4564,25 +4576,25 @@ msgstr "Imagen"
 msgid "Person"
 msgstr "Persona"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:642
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:795
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1087
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1092
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3004
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3009
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3014
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1087
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1092
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:642
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:795
 msgid "Pencil"
 msgstr "Lápiz"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:862
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1077
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1082
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:862
 msgid "Paper Clip"
 msgstr "Sujetapapeles"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1080
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2964
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1072
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2964
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1080
 msgid "Music"
 msgstr "Música"
 
@@ -4590,14 +4602,14 @@ msgstr "Música"
 msgid "Mic"
 msgstr "Mic"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:307
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2864
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1062
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2864
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:307
 msgid "Magnet"
 msgstr "Imán"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2859
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1057
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2859
 msgid "Magic"
 msgstr "Magia"
 
@@ -4605,30 +4617,30 @@ msgstr "Magia"
 msgid "Lines"
 msgstr "Líneas"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2814
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1047
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2814
 msgid "Leaf"
 msgstr "Hoja"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:220
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2809
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1037
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1042
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2809
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:220
 msgid "Laptop"
 msgstr "Portátil"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1032
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:491
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2794
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:827
 #: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1060
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2794
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1032
 msgid "Key"
 msgstr "Key (llave)"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2759
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1012
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1017
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1022
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2759
 msgid "Inbox"
 msgstr "Entrada"
 
@@ -4637,13 +4649,13 @@ msgstr "Entrada"
 msgid "Idea"
 msgstr "Idea"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:362
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:997
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2729
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2734
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2739
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2744
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2749
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:997
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:362
 msgid "Hourglass"
 msgstr "Reloj de arena"
 
@@ -4651,13 +4663,13 @@ msgstr "Reloj de arena"
 msgid "Heart Empty"
 msgstr "Corazón vacío"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:486
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:817
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:650
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1477
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1482
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:982
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:987
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:486
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1477
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1482
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:817
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:650
 msgid "Heart"
 msgstr "Corazón"
 
@@ -4665,57 +4677,57 @@ msgstr "Corazón"
 msgid "Hearing Impaired"
 msgstr "Problemas auditivos"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2719
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:972
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2719
 msgid "Headphones"
 msgstr "Auriculares"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2709
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:967
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2709
 msgid "HDD"
 msgstr "HDD"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1254
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:962
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1254
 msgid "Hand Right"
 msgstr "Mano derecha"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1249
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:957
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1249
 msgid "Hand Left"
 msgstr "Mano izquierda"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1244
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:952
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1244
 msgid "Hand Down"
 msgstr "Mano abajo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1259
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:947
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1259
 msgid "Hand Up"
 msgstr "Mano arriba"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:120
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:942
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:120
 msgid "Guide Dog"
 msgstr "Perro guía"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2664
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:932
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:937
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2664
 msgid "Group"
 msgstr "Grupo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:667
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:922
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:927
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:667
 msgid "Graph"
 msgstr "Gráfico"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:472
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2654
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:912
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:917
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2654
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:472
 msgid "Globe"
 msgstr "Globo"
 
@@ -4723,18 +4735,18 @@ msgstr "Globo"
 msgid "Glasses"
 msgstr "Gafas"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2649
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:902
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2649
 msgid "Glass"
 msgstr "Vidrio"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2644
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:897
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2644
 msgid "Gift"
 msgstr "Regalo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1770
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:887
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1770
 msgid "Font"
 msgstr "Fuente"
 
@@ -4746,49 +4758,49 @@ msgstr "Carpeta"
 msgid "Folder Close"
 msgstr "Cerrar carpeta"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:872
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2599
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2609
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:872
 msgid "Folder Open"
 msgstr "Carpeta abierta"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:482
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:630
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:867
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2594
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2604
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:867
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:482
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:630
 msgid "Folder"
 msgstr "Carpeta"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:382
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2559
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:852
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2559
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:382
 msgid "Fire"
 msgstr "Fuego"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:487
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2549
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:842
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2549
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:487
 msgid "Film"
 msgstr "Película"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:535
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1286
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1291
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:832
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:837
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1286
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1291
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:535
 msgid "File"
 msgstr "Archivo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:140
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2544
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:827
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2544
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:140
 msgid "Female"
 msgstr "Femenino"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:135
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2884
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:822
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2884
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:135
 msgid "Male"
 msgstr "Masculino"
 
@@ -4804,53 +4816,53 @@ msgstr "Ojo cerrado"
 msgid "Exclamation Sign"
 msgstr "Signo de exclamación"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:802
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:787
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:792
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2464
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2469
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2474
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2479
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2484
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:787
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:792
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:802
 msgid "Envelope"
 msgstr "Sobre"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:912
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:320
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:777
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1549
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1554
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2389
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:777
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:912
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:320
 msgid "Credit Card"
 msgstr "Tarjeta de crédito"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:167
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:215
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2379
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:767
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:772
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2379
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:167
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:215
 msgid "Compass"
 msgstr "Brújula"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2344
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:752
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2344
 msgid "Cogs"
 msgstr "Engranajes"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:431
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1611
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:742
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:747
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:431
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1611
 msgid "Cog"
 msgstr "Engranaje"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2294
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:737
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2294
 msgid "Child"
 msgstr "Hijo/a"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2274
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:732
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2274
 msgid "Certificate"
 msgstr "Certificado"
 
@@ -4858,8 +4870,8 @@ msgstr "Certificado"
 msgid "CC"
 msgstr "CC"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1643
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:722
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1643
 msgid "Car"
 msgstr "Coche"
 
@@ -4867,13 +4879,13 @@ msgstr "Coche"
 msgid "Calendar Sign"
 msgstr "Calendario"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2194
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:702
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2194
 msgid "Bullhorn"
 msgstr "Megáfono"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:762
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:697
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:762
 msgid "Bulb"
 msgstr "Bombilla"
 
@@ -4885,35 +4897,35 @@ msgstr "Cepillo"
 msgid "Broom"
 msgstr "Escoba"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:537
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2174
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:682
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2174
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:537
 msgid "Briefcase"
 msgstr "Maletín"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:105
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:146
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:677
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:146
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:105
 msgid "Braille"
 msgstr "Braille"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:100
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:141
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:667
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:141
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:100
 msgid "Blind"
 msgstr "Ciego"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:402
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:662
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2119
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2124
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2129
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2134
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:662
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:402
 msgid "Bell"
 msgstr "Campana"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2074
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:657
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2074
 msgid "Barcode"
 msgstr "Código de barras"
 
@@ -4921,21 +4933,21 @@ msgstr "Código de barras"
 msgid "Ban Circle"
 msgstr "Señal de prohibición"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:955
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2054
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:647
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2054
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:955
 msgid "Asterisk"
 msgstr "Asterisco"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:95
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:642
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:95
 msgid "ASL"
 msgstr "ASL"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2004
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2009
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:632
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:637
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2004
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2009
 msgid "Address Book"
 msgstr "Libreta de direcciones"
 
@@ -4943,8 +4955,8 @@ msgstr "Libreta de direcciones"
 msgid "Adult"
 msgstr "Adulto"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:865
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:592
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:865
 msgid "Zoom In"
 msgstr "Aumentar"
 
@@ -4956,13 +4968,13 @@ msgstr "Señal de advertencia"
 msgid "Mute"
 msgstr "Silenciar"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3594
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:577
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3594
 msgid "Volume Down"
 msgstr "Bajar volúmen"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3604
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:572
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3604
 msgid "Volume Up"
 msgstr "Subir volúmen"
 
@@ -4970,23 +4982,23 @@ msgstr "Subir volúmen"
 msgid "View Mode"
 msgstr "Modo de visualización"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3454
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:547
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3454
 msgid "Tint"
 msgstr "Matiz"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1875
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:532
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1875
 msgid "Text Width"
 msgstr "Ancho de texto"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1870
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:527
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1870
 msgid "Text Height"
 msgstr "Altura de texto"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3394
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:522
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3394
 msgid "Tasks"
 msgstr "Tareas"
 
@@ -4994,8 +5006,8 @@ msgstr "Tareas"
 msgid "Reverse"
 msgstr "Invertir"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3134
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:487
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3134
 msgid "Retweet"
 msgstr "Retweet"
 
@@ -5019,16 +5031,16 @@ msgstr "Redimensionar horizontalmente"
 msgid "Resize Vertical"
 msgstr "Redimensionar verticalmente"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:442
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:206
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1616
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:877
 #: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:785
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1616
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:442
 msgid "Refresh"
 msgstr "Recargar"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:870
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:437
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:870
 msgid "Record"
 msgstr "Grabar"
 
@@ -5036,18 +5048,18 @@ msgstr "Grabar"
 msgid "Question Sign"
 msgstr "Signo de interrogación"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:632
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:427
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3079
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3084
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3089
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:427
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:632
 msgid "Question"
 msgstr "Pregunta"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:186
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:505
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3064
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:422
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:186
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3064
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:505
 msgid "Print"
 msgstr "Imprimir"
 
@@ -5055,13 +5067,13 @@ msgstr "Imprimir"
 msgid "Plus Sign"
 msgstr "Signo más"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:402
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:407
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:316
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:890
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1982
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1987
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1992
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:402
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:407
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:890
 msgid "Stop"
 msgstr "Parar"
 
@@ -5081,8 +5093,8 @@ msgstr "OK"
 msgid "Off"
 msgstr "Parado"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:171
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:357
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:171
 msgid "Move"
 msgstr "Mover"
 
@@ -5090,18 +5102,18 @@ msgstr "Mover"
 msgid "Minus Sign"
 msgstr "Signo menos"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2899
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:337
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:342
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2899
 msgid "Map Marker"
 msgstr "Marcador de mapa"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:182
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:755
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1805
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1810
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:307
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:312
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1805
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1810
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:182
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:755
 msgid "List"
 msgstr "Lista"
 
@@ -5127,9 +5139,9 @@ msgstr "Editar archivo"
 msgid "File New"
 msgstr "Nuevo archivo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:940
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1917
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:262
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1917
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:940
 msgid "Eject"
 msgstr "Expulsar"
 
@@ -5149,23 +5161,23 @@ msgstr "Circulo flecha abajo"
 msgid "Circle Arrow Up"
 msgstr "Circulo flecha arriba"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1234
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:222
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1234
 msgid "Chevron Right"
 msgstr "Chevron derecho"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1229
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:217
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1229
 msgid "Chevron Left"
 msgstr "Chevron izquierdo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1224
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:212
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1224
 msgid "Chevron Down"
 msgstr "Chevron abajo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1239
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:207
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1239
 msgid "Chevron Up"
 msgstr "Chevron hacia arriba"
 
@@ -5173,126 +5185,126 @@ msgstr "Chevron hacia arriba"
 msgid "Check Empty"
 msgstr "Comprobar vacío"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:237
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:680
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:685
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:197
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1353
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1358
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2279
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2284
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2289
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:197
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:237
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:680
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:685
 msgid "Check"
 msgstr "Comprobar"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:192
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1174
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1194
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2254
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:192
 msgid "Caret Right"
 msgstr "Ángulo hacia la derecha"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:187
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1169
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1189
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2249
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:187
 msgid "Caret Left"
 msgstr "Ángulo hacia la izquierda"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:182
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1164
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1184
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2244
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:182
 msgid "Caret Down"
 msgstr "Ángulo hacia abajo"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:177
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1179
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1199
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2259
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:177
 msgid "Caret Up"
 msgstr "Ángulo hacia arriba"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:321
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:905
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1932
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:157
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:321
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1932
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:905
 msgid "Fast Forward"
 msgstr "Avanzar"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1977
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:152
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1977
 msgid "Step Forward"
 msgstr "Paso adelante"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1907
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:137
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1907
 msgid "Backward"
 msgstr "Hacia atrás"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1972
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:132
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1972
 msgid "Step Backward"
 msgstr "Paso atrás"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1927
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:127
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1927
 msgid "Fast Backward"
 msgstr "Rebobinar"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:396
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:207
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1134
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:122
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:396
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1134
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:207
 msgid "Arrow Right"
 msgstr "Flecha derecha"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:391
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:202
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1129
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:117
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:391
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1129
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:202
 msgid "Arrow Left"
 msgstr "Flecha izquierda"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:386
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:197
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1124
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:112
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:386
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1124
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:197
 msgid "Arrow Down"
 msgstr "Flecha abajo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:381
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:212
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1139
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:107
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:381
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1139
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:212
 msgid "Arrow Up"
 msgstr "Flecha arriba"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2024
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:77
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:82
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2024
 msgid "Adjust"
 msgstr "Ajustar"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:57
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:50
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:57
 msgid "Places"
 msgstr "Sitios"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:46
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:53
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:56
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:46
 msgid "Misc."
 msgstr "Otros."
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:59
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:38
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:59
 msgid "Currency"
 msgstr "Moneda"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:34
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:41
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:48
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:34
 msgid "Actions"
 msgstr "Acciones"
 
@@ -5306,26 +5318,26 @@ msgstr "Advertencia"
 msgid "Vault"
 msgstr "Bóveda"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:770
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:327
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:332
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3529
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3534
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1159
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:327
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:332
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:770
 msgid "Unlock"
 msgstr "Unlock"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:542
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3414
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3424
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1154
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:542
 msgid "Thumbs Down"
 msgstr "Voto negativo"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:537
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3419
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3429
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1149
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:537
 msgid "Thumbs Up"
 msgstr "Voto positivo"
 
@@ -5355,9 +5367,9 @@ msgstr "Fija"
 msgid "S.O.S."
 msgstr "S.O.S."
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1114
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1197
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1202
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1114
 msgid "Smiley"
 msgstr "Sonriente"
 
@@ -5369,21 +5381,21 @@ msgstr "Smartphone"
 msgid "Slides"
 msgstr "Diapositivas"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:347
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1125
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3199
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:347
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1094
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1099
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1125
 msgid "Shield"
 msgstr "Escudo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:521
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:127
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3019
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3029
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1084
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1102
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1107
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:521
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3019
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3029
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:127
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1084
 msgid "Phone"
 msgstr "Telefono"
 
@@ -5396,34 +5408,34 @@ msgstr "Palmera"
 msgid "Money"
 msgstr "Dinero"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1065
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2844
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1069
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1065
 msgid "Lightbulb"
 msgstr "Bombilla"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:242
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:585
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2304
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:242
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1064
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:585
 msgid "Clock"
 msgstr "Reloj"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:446
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:690
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2444
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1054
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:247
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:252
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:446
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2444
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1054
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:690
 msgid "Download"
 msgstr "Descarga"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:672
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:411
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:980
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2154
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1044
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1049
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:672
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:980
 msgid "Book"
 msgstr "Reservar"
 
@@ -5442,8 +5454,8 @@ msgstr "Productos"
 msgid "Location"
 msgstr "Ubicación"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:740
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1019
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:740
 msgid "Layout"
 msgstr "Diseño"
 
@@ -5494,11 +5506,11 @@ msgstr "Gráfico circular"
 msgid "Carrot"
 msgstr "Zanahoria"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:787
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:210
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2234
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:949
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:717
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2234
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:787
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:949
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:210
 msgid "Camera"
 msgstr "Cámara"
 
@@ -5555,9 +5567,9 @@ msgstr "Documento"
 msgid "Code"
 msgstr "Código"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:570
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2034
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:864
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:570
 msgid "Archive"
 msgstr "Archivar"
 
@@ -5573,33 +5585,33 @@ msgstr "Volumen: Encender"
 msgid "Skip Forward"
 msgstr "Saltar hacia adelante"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1937
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:839
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:142
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:147
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1937
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:839
 msgid "Forward"
 msgstr "Adelante"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:392
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:397
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:311
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:885
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1942
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1947
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1952
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:834
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:392
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:397
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:885
 msgid "Pause"
 msgstr "Pausa"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:382
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:387
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:306
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:875
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:880
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1957
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1962
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1967
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:829
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:382
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:387
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:875
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:880
 msgid "Play"
 msgstr "Play"
 
@@ -5611,15 +5623,15 @@ msgstr "Anterior"
 msgid "Skip Back"
 msgstr "Saltar hacia atrás"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:857
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:862
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:471
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:812
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:705
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2569
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2574
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2579
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:812
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:814
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:857
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:862
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:705
 msgid "Flag"
 msgstr "Bandera"
 
@@ -5635,8 +5647,8 @@ msgstr "Estrella: medio"
 msgid "Star: Filled"
 msgstr "Estrella: llena"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:775
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:794
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:775
 msgid "Marker"
 msgstr "Marcador"
 
@@ -5644,28 +5656,28 @@ msgstr "Marcador"
 msgid "Dismiss"
 msgstr "Descartar"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:347
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:156
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:252
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:660
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:665
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1378
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1383
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2934
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2939
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:252
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:784
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:347
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:660
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:665
 msgid "Minus"
 msgstr "Menos"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:412
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:151
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:247
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:655
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1388
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1393
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3044
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3049
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:247
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:779
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:412
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:655
 msgid "Plus"
 msgstr "Más"
 
@@ -5674,11 +5686,11 @@ msgstr "Más"
 msgid "Category"
 msgstr "Categoría"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:346
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:587
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3384
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:754
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:517
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:346
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3384
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:587
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:754
 msgid "Tag"
 msgstr "Etiqueta"
 
@@ -5686,12 +5698,12 @@ msgstr "Etiqueta"
 msgid "Translation"
 msgstr "Traducción"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:576
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:590
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2314
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:744
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1327
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1332
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:576
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2314
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:744
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:590
 msgid "Cloud"
 msgstr "Nube"
 
@@ -5704,13 +5716,13 @@ msgstr "Contacta"
 msgid "Cart"
 msgstr "Carrito"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1027
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:131
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:822
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1055
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2784
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2789
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:822
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:729
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1027
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:1055
 msgid "Info"
 msgstr "Información"
 
@@ -5765,9 +5777,9 @@ msgstr "Facebook"
 msgid "Email"
 msgstr "Correo electronico"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:815
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3144
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:649
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:815
 msgid "RSS"
 msgstr "RSS"
 
@@ -5775,19 +5787,19 @@ msgstr "RSS"
 msgid "Twitter"
 msgstr "Twitter"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:507
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:512
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:241
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:622
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:820
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3174
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3179
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3184
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3189
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3194
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:622
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:629
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:634
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:639
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:507
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:512
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:820
 msgid "Share"
 msgstr "Compartir"
 
@@ -5812,49 +5824,49 @@ msgstr "Ordenar"
 msgid "Left-Right"
 msgstr "Izquierda-Derecha"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:180
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:559
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:579
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:599
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:180
 msgid "Arrow: Right"
 msgstr "Flecha derecha"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:175
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:554
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:574
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:594
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:175
 msgid "Arrow: Left"
 msgstr "Flecha izquierda"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:170
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:549
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:569
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:589
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:170
 msgid "Arrow: Down"
 msgstr "Flecha abajo"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:165
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:544
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:564
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:584
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:165
 msgid "Arrow: Up"
 msgstr "Flecha arriba"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:571
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:582
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:840
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3494
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3499
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:539
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:552
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:557
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:571
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3494
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3499
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:582
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:539
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:840
 msgid "Trash"
 msgstr "Papelera"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:257
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:661
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2449
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:534
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:257
 msgid "Edit"
 msgstr "Editar"
 
@@ -5874,26 +5886,26 @@ msgstr "Visibilidad"
 msgid "Hidden"
 msgstr "Oculto"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:757
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:580
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:707
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2209
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2214
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2219
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2224
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2229
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:757
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:504
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:509
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:707
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:580
 msgid "Calendar"
 msgstr "Calendario"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:136
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:837
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:765
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2854
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:499
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:317
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:322
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:136
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2854
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:837
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:499
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:765
 msgid "Lock"
 msgstr "Bloquear"
 
@@ -5905,33 +5917,33 @@ msgstr "Sin alinear"
 msgid "RTL"
 msgstr "RTL"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:520
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1800
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:469
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:520
 msgid "Unlink"
 msgstr "Quitar enlace"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:370
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1850
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:464
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:370
 msgid "Strikethrough"
 msgstr "Tachado"
 
+#: includes/dashboard.php:98
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:126
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:459
-#: includes/dashboard.php:98
 msgid "Help"
 msgstr "Ayuda"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:430
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1785
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:454
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:430
 msgid "Outdent"
 msgstr "Reducir sangría"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:425
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1780
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:449
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:425
 msgid "Indent"
 msgstr "Sangría"
 
@@ -5951,21 +5963,21 @@ msgstr "Pegar texto"
 msgid "Paste Word"
 msgstr "Pegar Word"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:375
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:419
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:375
 msgid "Text Color"
 msgstr "Color del Texto"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:410
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:102
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1720
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:414
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:102
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:410
 msgid "Justify"
 msgstr "Justificar"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:365
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1895
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:409
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:365
 msgid "Underline"
 msgstr "Subrayado"
 
@@ -5985,27 +5997,27 @@ msgstr "Corrector ortográfico"
 msgid "Insert More"
 msgstr "Insertar más"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:405
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:97
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1725
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:384
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:484
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:97
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:405
 msgid "Align Right"
 msgstr "Alinear a la derecha"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:400
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:92
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1715
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:379
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:489
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:92
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:400
 msgid "Align Center"
 msgstr "Alinear al centro"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:395
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:87
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1710
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:374
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:479
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:87
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:395
 msgid "Align Left"
 msgstr "Alinear a la izquierda"
 
@@ -6019,20 +6031,20 @@ msgstr "Lista ordenada"
 msgid "Unordered List"
 msgstr "Lista desordenada"
 
+#: includes/metabox/controls/typography/class-control-typography.php:181
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:167
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:676
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:360
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1790
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:354
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:167
-#: includes/metabox/controls/typography/class-control-typography.php:181
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:360
 msgid "Italic"
 msgstr "Italic"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:162
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:671
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:355
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1730
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:349
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:162
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:355
 msgid "Bold"
 msgstr "Bold"
 
@@ -6061,10 +6073,10 @@ msgstr "Rotar derecha"
 msgid "Rotate Left"
 msgstr "Rotar izquierda"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:332
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:485
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2394
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:332
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:304
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:485
 msgid "Crop"
 msgstr "Recortar / Crop"
 
@@ -6113,8 +6125,8 @@ msgstr "Galería"
 msgid "Audio"
 msgstr "Audio"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:611
 #: includes/menu-icons/includes/library/icon-selector/includes/types/image.php:39
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:611
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:229
 msgid "Image"
 msgstr "Imagen"
@@ -6142,9 +6154,9 @@ msgstr "Herramientas"
 msgid "Site"
 msgstr "Sitio"
 
+#: includes/metabox/metabox.php:336
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:887
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:199
-#: includes/metabox/metabox.php:336
 msgid "Settings"
 msgstr "Ajustes"
 
@@ -6156,8 +6168,8 @@ msgstr "Plugins"
 msgid "Page"
 msgstr "Página"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:184
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1297
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:184
 msgid "Network"
 msgstr "Red"
 
@@ -6165,28 +6177,28 @@ msgstr "Red"
 msgid "Multisite"
 msgstr "Multisitio"
 
+#: includes/metabox/metabox.php:968
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:501
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:177
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:174
-#: includes/metabox/metabox.php:968
 msgid "Menu"
 msgstr "Menú"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:581
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:657
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:735
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2724
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:164
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1282
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1287
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:581
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2724
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:657
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:164
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:735
 msgid "Home"
 msgstr "Sitio web"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:490
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:847
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2554
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:159
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:309
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:847
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:490
 msgid "Filter"
 msgstr "Filtro"
 
@@ -6194,9 +6206,9 @@ msgstr "Filtro"
 msgid "Generic"
 msgstr "Genérico"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1277
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2424
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:149
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1277
 msgid "Dashboard"
 msgstr "Panel de Control"
 
@@ -6204,11 +6216,11 @@ msgstr "Panel de Control"
 msgid "Customizer"
 msgstr "Personalizador"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:615
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2359
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2364
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:139
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:274
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:615
 msgid "Comments"
 msgstr "Comentarios"
 
@@ -6225,10 +6237,10 @@ msgstr "Aspecto"
 msgid "Misc./Post Types"
 msgstr "Misc./Tipos de contenidos"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:42
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:52
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:103
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:169
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:42
 msgid "Media"
 msgstr "Medio"
 
@@ -6248,10 +6260,10 @@ msgstr "Interno/Productos"
 msgid "Jobs"
 msgstr "Empleos"
 
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:54
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:69
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:60
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:83
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:54
 msgid "Social"
 msgstr "Social"
 
@@ -6306,16 +6318,16 @@ msgstr "Selector de iconos: %s contiene uno o más errores."
 msgid "Icon Picker: %1$s was not found in %2$s."
 msgstr "Selector de iconos: %1$s no se encontró en %2$s."
 
-#: includes/menu-icons/includes/picker.php:79
 #: includes/menu-icons/includes/settings.php:595
+#: includes/menu-icons/includes/picker.php:79
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:447
 #: includes/menu-icons/includes/library/icon-selector/includes/fields/base.php:44
 msgid "Remove"
 msgstr "Eliminar"
 
 #: includes/menu-icons/includes/settings.php:593
-#: includes/menu-icons/includes/library/icon-selector/includes/loader.php:182
 #: includes/menu-icons/includes/library/icon-selector/includes/fields/base.php:43
+#: includes/menu-icons/includes/library/icon-selector/includes/loader.php:182
 msgid "Select Icon"
 msgstr "Seleccionar Icono"
 
@@ -6323,18 +6335,18 @@ msgstr "Seleccionar Icono"
 msgid "Full Size"
 msgstr "Tamaño Completo"
 
-#: includes/menu-icons/includes/library/functions.php:68
 #: includes/widgets/instagram.php:181
+#: includes/menu-icons/includes/library/functions.php:68
 msgid "Large"
 msgstr "Grande"
 
-#: includes/menu-icons/includes/library/functions.php:67
 #: includes/metabox/metabox.php:747
+#: includes/menu-icons/includes/library/functions.php:67
 msgid "Medium"
 msgstr "Mediano"
 
-#: includes/menu-icons/includes/library/functions.php:66
 #: includes/widgets/instagram.php:179
+#: includes/menu-icons/includes/library/functions.php:66
 msgid "Thumbnail"
 msgstr "Miniatura"
 
@@ -6382,9 +6394,9 @@ msgstr "Taxonomía:"
 msgid "The tag cloud will not be displayed since there are no taxonomies that support the tag cloud widget."
 msgstr "La nube de etiquetas no se mostrará puesto que no hay taxonomías que soporten el widget de nube de etiquetas."
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3389
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1302
 #: includes/widgets/tags.php:81
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1302
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3389
 msgid "Tags"
 msgstr "Tags"
 
@@ -6408,10 +6420,10 @@ msgstr "CSS"
 msgid "JS"
 msgstr "JS"
 
+#: includes/wizard/wizard.php:484 includes/panel/scripts.php:516
+#: includes/panel/classes/class-install-demos.php:74
 #: includes/menu-icons/includes/settings.php:597
 #: includes/menu-icons/includes/library/icon-selector/includes/loader.php:181
-#: includes/panel/classes/class-install-demos.php:74
-#: includes/panel/scripts.php:516 includes/wizard/wizard.php:484
 msgid "All"
 msgstr "Todas"
 
@@ -6451,13 +6463,13 @@ msgstr "Widgets del pie"
 msgid "Pagination"
 msgstr "Paginación"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:331
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:595
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2349
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2354
+#: includes/panel/scripts.php:313
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:757
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:762
-#: includes/panel/scripts.php:313
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:331
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2349
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:2354
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:595
 msgid "Comment"
 msgstr "Comentar"
 
@@ -6485,8 +6497,8 @@ msgstr "Blog con estilo grande"
 msgid "This style is all the css for the blog and post formats."
 msgstr "Este estilo es todo el css para el blog y los diferentes formatos de publicación."
 
-#: includes/dashboard.php:91 includes/panel/scripts.php:273
-#: includes/wizard/wizard.php:774
+#: includes/dashboard.php:91 includes/wizard/wizard.php:774
+#: includes/panel/scripts.php:273
 msgid "Blog"
 msgstr "Blog"
 
@@ -6510,7 +6522,7 @@ msgstr "Este estilo es todo el css demenú principal."
 msgid "Navigation"
 msgstr "Navegación"
 
-#: includes/metabox/metabox.php:749 includes/panel/scripts.php:248
+#: includes/panel/scripts.php:248 includes/metabox/metabox.php:749
 msgid "Custom Header"
 msgstr "Cabecera personalizada"
 
@@ -6798,35 +6810,35 @@ msgstr "Contribuir con OceanWP"
 msgid "Customize Your Site"
 msgstr "Personaliza tu sitio"
 
-#: includes/panel/theme-panel.php:206 includes/panel/about.php:193
+#: includes/panel/about.php:193 includes/panel/theme-panel.php:206
 msgid "Add your copyright, paddings and colors for the footer bottom."
 msgstr "Añade la información de copyright, espacios y colores para el pie de pagina."
 
-#: includes/panel/theme-panel.php:205 includes/panel/about.php:192
+#: includes/panel/about.php:192 includes/panel/theme-panel.php:205
 msgid "Footer bottom options"
 msgstr "Opciones de la parte inferior del pie"
 
-#: includes/panel/theme-panel.php:198 includes/panel/about.php:188
+#: includes/panel/about.php:188 includes/panel/theme-panel.php:198
 msgid "Choose the style, the height and the colors for your site header."
 msgstr "Elegir el estilo, la altura y los colores para el encabezado del sitio."
 
-#: includes/panel/theme-panel.php:197 includes/panel/about.php:187
+#: includes/panel/about.php:187 includes/panel/theme-panel.php:197
 msgid "Header options"
 msgstr "Opciones de la cabecera"
 
-#: includes/panel/theme-panel.php:194 includes/panel/about.php:183
+#: includes/panel/about.php:183 includes/panel/theme-panel.php:194
 msgid "Enable/Disable the top bar, add your own paddings and colors."
 msgstr "Activar/desactivar la barra superior, añade el relleno y colores."
 
-#: includes/panel/theme-panel.php:193 includes/panel/about.php:182
+#: includes/panel/about.php:182 includes/panel/theme-panel.php:193
 msgid "Top bar options"
 msgstr "Opciones de la barra superior"
 
-#: includes/panel/theme-panel.php:189 includes/panel/about.php:178
+#: includes/panel/about.php:178 includes/panel/theme-panel.php:189
 msgid "Choose your own typography for any parts of your website."
 msgstr "Elige la tipografía para las diferentes áreas del sitio."
 
-#: includes/panel/theme-panel.php:188 includes/panel/about.php:177
+#: includes/panel/about.php:177 includes/panel/theme-panel.php:188
 msgid "Choose your typography"
 msgstr "Elige tu tipografía"
 
@@ -6838,27 +6850,27 @@ msgstr "Elige el color y el color al pasar por encima de tus enlaces en todo el 
 msgid "Change the links color"
 msgstr "Cambiar el color de los enlaces"
 
-#: includes/panel/theme-panel.php:185 includes/panel/about.php:168
+#: includes/panel/about.php:168 includes/panel/theme-panel.php:185
 msgid "Replace the default primary and hover color by your own colors."
 msgstr "Reemplaza el color primario predeterminado y el color al pasar por encima con tus propios colores."
 
-#: includes/panel/theme-panel.php:184 includes/panel/about.php:167
+#: includes/panel/about.php:167 includes/panel/theme-panel.php:184
 msgid "Choose your primary color"
 msgstr "Elige el color primario"
 
-#: includes/panel/theme-panel.php:181 includes/panel/about.php:163
+#: includes/panel/about.php:163 includes/panel/theme-panel.php:181
 msgid "The favicon is used as a browser and app icon for your website."
 msgstr "El icono de sitio se utiliza en el navegador y en la app del sitio."
 
-#: includes/panel/theme-panel.php:180 includes/panel/about.php:162
+#: includes/panel/about.php:162 includes/panel/theme-panel.php:180
 msgid "Add your favicon"
 msgstr "Añade tu favicono"
 
-#: includes/panel/theme-panel.php:545 includes/panel/about.php:159
-#: includes/panel/about.php:164 includes/panel/about.php:169
-#: includes/panel/about.php:174 includes/panel/about.php:179
-#: includes/panel/about.php:184 includes/panel/about.php:189
-#: includes/panel/about.php:194
+#: includes/panel/about.php:159 includes/panel/about.php:164
+#: includes/panel/about.php:169 includes/panel/about.php:174
+#: includes/panel/about.php:179 includes/panel/about.php:184
+#: includes/panel/about.php:189 includes/panel/about.php:194
+#: includes/panel/theme-panel.php:545
 msgid "Go to the option"
 msgstr "Ir a la opción"
 
@@ -6866,7 +6878,7 @@ msgstr "Ir a la opción"
 msgid "Add your own logo and retina logo used for the mobile design."
 msgstr "Añade tu propio logotipo y el logotipo de la retina utilizado para el diseño del móvil."
 
-#: includes/panel/theme-panel.php:176 includes/panel/about.php:157
+#: includes/panel/about.php:157 includes/panel/theme-panel.php:176
 msgid "Upload your logo"
 msgstr "Sube tu logo"
 
@@ -6998,17 +7010,17 @@ msgstr "Introduce la URL del vídeo que sea compatible con la función de oEmbed
 msgid "Video URL "
 msgstr "URL del vídeo "
 
+#: includes/widgets/video.php:108
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:617
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:622
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:621
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:270
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:234
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:439
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:904
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1169
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1174
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1179
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:617
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:622
-#: includes/widgets/video.php:108
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:270
 msgid "Video"
 msgstr "Vídeo"
 
@@ -7028,10 +7040,10 @@ msgstr "&raquo; Video"
 msgid "Border Radius"
 msgstr "Radio de borde"
 
+#: includes/widgets/social.php:412
+#: includes/metabox/controls/typography/class-control-typography.php:62
 #: includes/menu-icons/includes/settings.php:372
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:892
-#: includes/metabox/controls/typography/class-control-typography.php:62
-#: includes/widgets/social.php:412
 msgid "Font Size"
 msgstr "Tamaño de tipografía"
 
@@ -7044,9 +7056,9 @@ msgstr "Ejemplo:"
 msgid "Dimensions"
 msgstr "Dimensiones"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:860
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:597
 #: includes/widgets/social.php:392
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:597
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:860
 msgid "Zoom Out"
 msgstr "Menos zoon"
 
@@ -7070,8 +7082,8 @@ msgstr "Coloreado"
 msgid "Style:"
 msgstr "Estilo:"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:314
 #: includes/widgets/social.php:357 includes/widgets/social.php:391
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:314
 msgid "Rotate"
 msgstr "Rotar"
 
@@ -7243,9 +7255,9 @@ msgstr "Por defecto es usuario"
 msgid "Display Name:"
 msgstr "Nombre para mostrar:"
 
+#: includes/widgets/instagram.php:224
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1398
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1403
-#: includes/widgets/instagram.php:224
 msgid "Square"
 msgstr "Square"
 
@@ -7285,9 +7297,9 @@ msgstr "Imágen de Instagram"
 msgid "Link To"
 msgstr "Enlazado a"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3104
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1157
 #: includes/widgets/recent-posts.php:275
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:1157
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3104
 msgid "Random"
 msgstr "Aleatorio"
 
@@ -7371,8 +7383,8 @@ msgstr "Nombre de usuario:"
 msgid "Follow Us"
 msgstr "Síguenos"
 
-#: includes/menu-icons/includes/settings.php:317
 #: includes/widgets/instagram.php:121
+#: includes/menu-icons/includes/settings.php:317
 msgid "Before"
 msgstr "Antes"
 
@@ -7380,17 +7392,17 @@ msgstr "Antes"
 msgid "Rounded"
 msgstr "Redondeado"
 
+#: includes/widgets/instagram.php:124 includes/widgets/instagram.php:209
 #: includes/menu-icons/includes/settings.php:305
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:764
-#: includes/widgets/instagram.php:124 includes/widgets/instagram.php:209
 msgid "Yes"
 msgstr "Si"
 
+#: includes/widgets/instagram.php:116 includes/widgets/instagram.php:208
+#: includes/widgets/recent-posts.php:236
 #: includes/menu-icons/includes/settings.php:301
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:769
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:774
-#: includes/widgets/recent-posts.php:236 includes/widgets/instagram.php:116
-#: includes/widgets/instagram.php:208
 msgid "No"
 msgstr "No"
 
@@ -7478,18 +7490,18 @@ msgstr "Mostrar una caja de Facebook para conectar a los visitantes con tu pági
 msgid "&raquo; Facebook Like Box"
 msgstr "&raquo; Facebook Like Box"
 
-#: includes/metabox/controls/typography/class-control-typography.php:198
 #: includes/widgets/tags.php:362 includes/widgets/custom-menu.php:369
+#: includes/metabox/controls/typography/class-control-typography.php:198
 msgid "Uppercase"
 msgstr "Mayúsculas"
 
-#: includes/metabox/controls/typography/class-control-typography.php:197
 #: includes/widgets/tags.php:361 includes/widgets/custom-menu.php:368
+#: includes/metabox/controls/typography/class-control-typography.php:197
 msgid "Lowercase"
 msgstr "Minúscula"
 
-#: includes/metabox/controls/typography/class-control-typography.php:196
 #: includes/widgets/tags.php:360 includes/widgets/custom-menu.php:367
+#: includes/metabox/controls/typography/class-control-typography.php:196
 msgid "Capitalize"
 msgstr "Capitalizar"
 
@@ -7525,8 +7537,8 @@ msgstr "arriba izquierda abajo derecha, ej: 15px 8px 15px 25px"
 msgid "Menu Padding:"
 msgstr "Relleno del menú:"
 
-#: includes/menu-icons/includes/library/form-fields.php:448
 #: includes/widgets/custom-menu.php:297
+#: includes/menu-icons/includes/library/form-fields.php:448
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Seleccionar &mdash;"
 
@@ -7638,29 +7650,29 @@ msgstr "Muestra el menú principal para el estilo de Encabezado Personalizado."
 msgid "&raquo; Custom Header Nav"
 msgstr "&raquo; Navegación personalizada de cabecera"
 
-#: includes/metabox/metabox.php:746 includes/widgets/custom-menu.php:311
-#: includes/widgets/instagram.php:252
-#: includes/widgets/custom-header-logo.php:110
 #: includes/widgets/custom-header-nav.php:115
+#: includes/widgets/custom-header-logo.php:110
+#: includes/widgets/instagram.php:252 includes/widgets/custom-menu.php:311
+#: includes/metabox/metabox.php:746
 msgid "Center"
 msgstr "Centro"
 
-#: includes/widgets/custom-menu.php:310 includes/widgets/instagram.php:251
-#: includes/widgets/custom-header-logo.php:109
 #: includes/widgets/custom-header-nav.php:114
+#: includes/widgets/custom-header-logo.php:109
+#: includes/widgets/instagram.php:251 includes/widgets/custom-menu.php:310
 msgid "Right"
 msgstr "Derecho"
 
-#: includes/widgets/custom-menu.php:309 includes/widgets/instagram.php:122
-#: includes/widgets/instagram.php:250
-#: includes/widgets/custom-header-logo.php:108
 #: includes/widgets/custom-header-nav.php:113
+#: includes/widgets/custom-header-logo.php:108
+#: includes/widgets/instagram.php:122 includes/widgets/instagram.php:250
+#: includes/widgets/custom-menu.php:309
 msgid "Left"
 msgstr "Izquierdo"
 
-#: includes/widgets/custom-menu.php:307 includes/widgets/instagram.php:240
-#: includes/widgets/custom-header-logo.php:105
 #: includes/widgets/custom-header-nav.php:111
+#: includes/widgets/custom-header-logo.php:105
+#: includes/widgets/instagram.php:240 includes/widgets/custom-menu.php:307
 msgid "Position:"
 msgstr "Posición:"
 
@@ -7703,9 +7715,9 @@ msgstr "Contenido"
 msgid "Icon Class"
 msgstr "Clase de icono"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:899
 #: includes/widgets/mailchimp.php:243 includes/widgets/contact-info.php:335
 #: includes/widgets/contact-info.php:495
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:899
 msgid "Text"
 msgstr "Texto"
 
@@ -7757,7 +7769,7 @@ msgstr "Añade compatibilidad para la información de contacto."
 msgid "&raquo; Contact Info"
 msgstr "&raquo; Información de contacto"
 
-#: includes/widgets/social.php:456 includes/widgets/about-me.php:318
+#: includes/widgets/about-me.php:318 includes/widgets/social.php:456
 msgid "Social Links"
 msgstr "Enlaces sociales"
 
@@ -7765,20 +7777,20 @@ msgstr "Enlaces sociales"
 msgid "Social Link Target:"
 msgstr "Ventana de destino del enlace:"
 
-#: includes/widgets/social.php:380 includes/widgets/social-share.php:376
-#: includes/widgets/twitter.php:236 includes/widgets/facebook.php:189
-#: includes/widgets/about-me.php:302
+#: includes/widgets/facebook.php:189 includes/widgets/twitter.php:236
+#: includes/widgets/about-me.php:302 includes/widgets/social.php:380
+#: includes/widgets/social-share.php:376
 msgid "Dark"
 msgstr "Negro"
 
-#: includes/widgets/social.php:356 includes/widgets/social.php:379
-#: includes/widgets/twitter.php:235 includes/widgets/facebook.php:188
-#: includes/widgets/about-me.php:301
+#: includes/widgets/facebook.php:188 includes/widgets/twitter.php:235
+#: includes/widgets/about-me.php:301 includes/widgets/social.php:356
+#: includes/widgets/social.php:379
 msgid "Light"
 msgstr "Claro"
 
-#: includes/metabox/metabox.php:1523 includes/widgets/social.php:434
-#: includes/widgets/about-me.php:300
+#: includes/widgets/about-me.php:300 includes/widgets/social.php:434
+#: includes/metabox/metabox.php:1523
 msgid "Color"
 msgstr "Color"
 
@@ -7786,7 +7798,7 @@ msgstr "Color"
 msgid "Social Style:"
 msgstr "Enlaces sociales:"
 
-#: includes/widgets/instagram.php:235 includes/widgets/about-me.php:292
+#: includes/widgets/about-me.php:292 includes/widgets/instagram.php:235
 msgid "Description:"
 msgstr "Descripción:"
 
@@ -7794,11 +7806,11 @@ msgstr "Descripción:"
 msgid "Name:"
 msgstr "Nombre:"
 
-#: includes/widgets/instagram.php:217 includes/widgets/about-me.php:283
+#: includes/widgets/about-me.php:283 includes/widgets/instagram.php:217
 msgid "Upload Image"
 msgstr "Cargar imagen"
 
-#: includes/widgets/instagram.php:215 includes/widgets/about-me.php:281
+#: includes/widgets/about-me.php:281 includes/widgets/instagram.php:215
 msgid "Image URL"
 msgstr "URL de la imagen"
 
@@ -7854,17 +7866,17 @@ msgstr "&raquo; Flickr"
 msgid "Log Out"
 msgstr "Salir"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:112
 #: includes/shortcodes/shortcodes.php:183
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:112
 msgid "Login"
 msgstr "Acceder"
 
+#: includes/shortcodes/shortcodes.php:112
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:497
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:502
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:226
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3154
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1089
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:497
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:502
-#: includes/shortcodes/shortcodes.php:112
 msgid "Search"
 msgstr "Buscar"
 
@@ -7904,11 +7916,11 @@ msgstr "No-repetir"
 msgid "Select your background image repeat."
 msgstr "Selecciona la repetición de la imagen de fondo."
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1835
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:849
+#: includes/metabox/metabox.php:1385 includes/metabox/metabox.php:1390
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:452
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:457
-#: includes/metabox/metabox.php:1385 includes/metabox/metabox.php:1390
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1835
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:849
 msgid "Repeat"
 msgstr "Repetir"
 
@@ -7924,8 +7936,8 @@ msgstr "Desplazamiento"
 msgid "Select your background image attachment."
 msgstr "Selecciona la imagen de fondo."
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:656
 #: includes/metabox/metabox.php:1363
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:656
 msgid "Attachment"
 msgstr "Adjunto"
 
@@ -7969,8 +7981,8 @@ msgstr "Superior izquierdo"
 msgid "Select your background image position."
 msgstr "Selecciona la posición de la imagen de fondo."
 
-#: includes/menu-icons/includes/settings.php:312
 #: includes/metabox/metabox.php:1334
+#: includes/menu-icons/includes/settings.php:312
 msgid "Position"
 msgstr "Posición"
 
@@ -7978,9 +7990,9 @@ msgstr "Posición"
 msgid "A simple extension to attach the footer at the bottom of your screen."
 msgstr "Una extensión simple para adjuntar el pie de página en la parte inferior de la pantalla."
 
+#: includes/updater.php:730 includes/panel/updater.php:968
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:797
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:802
-#: includes/updater.php:730 includes/panel/updater.php:968
 msgid "Error"
 msgstr "Error"
 
@@ -8068,8 +8080,8 @@ msgstr "Activar o desactivar la barra superior."
 msgid "Display Top Bar"
 msgstr "Mostrar barra superior"
 
+#: includes/panel/scripts.php:213 includes/metabox/metabox.php:682
 #: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1775
-#: includes/metabox/metabox.php:682 includes/panel/scripts.php:213
 msgid "Header"
 msgstr "Encabezado"
 
@@ -8282,8 +8294,8 @@ msgstr "Personalizar"
 msgid "Features"
 msgstr "Funcionalidades"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:58
 #: includes/panel/theme-panel.php:240 includes/panel/theme-panel.php:241
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:58
 msgid "General"
 msgstr "General"
 
@@ -8319,8 +8331,8 @@ msgstr "Panel de tipografía"
 msgid "General Panel"
 msgstr "Panel general"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:592
 #: includes/panel/links.php:39
+#: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:592
 msgid "Support"
 msgstr "Ayuda"
 
@@ -8329,14 +8341,14 @@ msgstr "Ayuda"
 msgid "Extensions"
 msgstr "Extensiones"
 
-#: includes/metabox/metabox.php:1798 includes/widgets/tags.php:363
-#: includes/widgets/social.php:389
+#: includes/widgets/tags.php:363 includes/widgets/social.php:389
+#: includes/metabox/metabox.php:1798
 msgid "None"
 msgstr "Ninguno"
 
+#: includes/widgets/recent-posts.php:217 includes/metabox/metabox.php:1678
+#: includes/metabox/metabox.php:1797
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:75
-#: includes/metabox/metabox.php:1678 includes/metabox/metabox.php:1797
-#: includes/widgets/recent-posts.php:217
 msgid "Post"
 msgstr "Publicar"
 
@@ -8352,24 +8364,24 @@ msgstr "Enlace a la cita"
 msgid "Enter your quote. This setting is used for your quote post formats."
 msgstr "Añade tu cita."
 
+#: includes/metabox/metabox.php:1776
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:631
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:525
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:244
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:369
-#: includes/metabox/metabox.php:1776
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:525
 msgid "Quote"
 msgstr "Cita"
 
-#: includes/metabox/metabox.php:1758 includes/widgets/social.php:400
-#: includes/widgets/instagram.php:262 includes/widgets/contact-info.php:343
 #: includes/widgets/custom-links.php:106 includes/widgets/custom-links.php:124
-#: includes/widgets/about-me.php:310
+#: includes/widgets/about-me.php:310 includes/widgets/social.php:400
+#: includes/widgets/instagram.php:262 includes/widgets/contact-info.php:343
+#: includes/metabox/metabox.php:1758
 msgid "Blank"
 msgstr "Sin avatar"
 
-#: includes/metabox/metabox.php:1757 includes/widgets/social.php:401
-#: includes/widgets/instagram.php:263 includes/widgets/contact-info.php:342
 #: includes/widgets/custom-links.php:125 includes/widgets/about-me.php:311
+#: includes/widgets/social.php:401 includes/widgets/instagram.php:263
+#: includes/widgets/contact-info.php:342 includes/metabox/metabox.php:1757
 msgid "Self"
 msgstr "El mismo"
 
@@ -8377,7 +8389,7 @@ msgstr "El mismo"
 msgid "Choose your target for the url. This setting is used for your link post formats."
 msgstr "Introduce el destino de la url. Este parámetro se utiliza para el formato de publicación enlace."
 
-#: includes/metabox/metabox.php:1754 includes/widgets/social.php:397
+#: includes/widgets/social.php:397 includes/metabox/metabox.php:1754
 msgid "Link Target"
 msgstr "Destino del Enlace"
 
@@ -8385,12 +8397,12 @@ msgstr "Destino del Enlace"
 msgid "Enter your external url. This setting is used for your link post formats."
 msgstr "Introduce la url externa. Este parámetro se utiliza para el formato de publicación enlace."
 
+#: includes/widgets/custom-menu.php:327 includes/metabox/metabox.php:1737
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:172
 #: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:636
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1795
 #: includes/menu-icons/includes/library/icon-selector/includes/types/simple-line-icons.php:832
 #: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:515
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:1795
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:172
-#: includes/metabox/metabox.php:1737 includes/widgets/custom-menu.php:327
 msgid "Link"
 msgstr "Enlace"
 
@@ -8406,9 +8418,9 @@ msgstr "Ingrese la URL del archivo de video o audio."
 msgid "Self Hosted"
 msgstr "Auto alojado"
 
+#: includes/widgets/video.php:122 includes/metabox/metabox.php:1689
+#: includes/metabox/metabox.php:1706
 #: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:284
-#: includes/metabox/metabox.php:1689 includes/metabox/metabox.php:1706
-#: includes/widgets/video.php:122
 msgid "Learn More"
 msgstr "Saber más"
 
@@ -8460,17 +8472,17 @@ msgstr "Cambia la visualización del título principal."
 msgid "Custom Title"
 msgstr "Título personalizado"
 
-#: includes/metabox/metabox.php:1192 includes/widgets/tags.php:263
-#: includes/widgets/custom-menu.php:290 includes/widgets/recent-posts.php:204
-#: includes/widgets/recent-posts.php:272 includes/widgets/mailchimp.php:237
-#: includes/widgets/social.php:372 includes/widgets/video.php:114
-#: includes/widgets/instagram.php:135 includes/widgets/contact-info.php:321
-#: includes/widgets/contact-info.php:356 includes/widgets/contact-info.php:380
-#: includes/widgets/contact-info.php:404 includes/widgets/contact-info.php:428
-#: includes/widgets/contact-info.php:447 includes/widgets/contact-info.php:471
-#: includes/widgets/flickr.php:105 includes/widgets/social-share.php:367
-#: includes/widgets/custom-links.php:117 includes/widgets/facebook.php:164
-#: includes/widgets/about-me.php:276
+#: includes/widgets/tags.php:263 includes/widgets/facebook.php:164
+#: includes/widgets/custom-links.php:117 includes/widgets/flickr.php:105
+#: includes/widgets/mailchimp.php:237 includes/widgets/about-me.php:276
+#: includes/widgets/social.php:372 includes/widgets/social-share.php:367
+#: includes/widgets/instagram.php:135 includes/widgets/recent-posts.php:204
+#: includes/widgets/recent-posts.php:272 includes/widgets/custom-menu.php:290
+#: includes/widgets/contact-info.php:321 includes/widgets/contact-info.php:356
+#: includes/widgets/contact-info.php:380 includes/widgets/contact-info.php:404
+#: includes/widgets/contact-info.php:428 includes/widgets/contact-info.php:447
+#: includes/widgets/contact-info.php:471 includes/widgets/video.php:114
+#: includes/metabox/metabox.php:1192
 msgid "Title"
 msgstr "Título"
 
@@ -8492,12 +8504,12 @@ msgstr "Activar"
 msgid "Margins"
 msgstr "Márgenes"
 
-#: includes/metabox/metabox.php:448 includes/panel/scripts.php:308
+#: includes/panel/scripts.php:308 includes/metabox/metabox.php:448
 msgid "Sidebar"
 msgstr "Barra lateral"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:476
 #: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:292
+#: includes/menu-icons/includes/library/icon-selector/includes/types/genericon.php:476
 msgid "Fullscreen"
 msgstr "Pantalla completa"
 
@@ -8533,7 +8545,12 @@ msgstr "Centrado mínimo"
 msgid "Centered"
 msgstr "Centrado"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:879
+#: includes/widgets/tags.php:359 includes/widgets/custom-menu.php:366
+#: includes/widgets/contact-info.php:290 includes/widgets/contact-info.php:328
+#: includes/metabox/controls/typography/class-control-typography.php:115
+#: includes/metabox/controls/typography/class-control-typography.php:156
+#: includes/metabox/controls/typography/class-control-typography.php:179
+#: includes/metabox/controls/typography/class-control-typography.php:195
 #: includes/metabox/metabox.php:361 includes/metabox/metabox.php:386
 #: includes/metabox/metabox.php:695 includes/metabox/metabox.php:718
 #: includes/metabox/metabox.php:741 includes/metabox/metabox.php:1205
@@ -8543,21 +8560,16 @@ msgstr "Centrado"
 #: includes/metabox/metabox.php:1602 includes/metabox/metabox.php:1625
 #: includes/metabox/metabox.php:1831 includes/metabox/metabox.php:1856
 #: includes/metabox/metabox.php:1869
-#: includes/metabox/controls/typography/class-control-typography.php:115
-#: includes/metabox/controls/typography/class-control-typography.php:156
-#: includes/metabox/controls/typography/class-control-typography.php:179
-#: includes/metabox/controls/typography/class-control-typography.php:195
-#: includes/widgets/tags.php:359 includes/widgets/custom-menu.php:366
-#: includes/widgets/contact-info.php:290 includes/widgets/contact-info.php:328
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:879
 msgid "Default"
 msgstr "Por defecto"
 
-#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:695
-#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3544
-#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1059
-#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:562
 #: includes/wizard/wizard.php:583 includes/wizard/wizard.php:612
 #: includes/wizard/wizard.php:653
+#: includes/menu-icons/includes/library/icon-selector/includes/types/elusive.php:562
+#: includes/menu-icons/includes/library/icon-selector/includes/types/fa.php:3544
+#: includes/menu-icons/includes/library/icon-selector/includes/types/dashicons.php:1059
+#: includes/menu-icons/includes/library/icon-selector/includes/types/foundation-icons.php:695
 msgid "Upload"
 msgstr "Subir"
 
@@ -8569,13 +8581,13 @@ msgstr "Otro"
 msgid "Enable lightbox for this gallery?"
 msgstr "¿Activar lightbox para esta galería?"
 
-#: includes/metabox/gallery-metabox/gallery-metabox.php:136
 #: includes/metabox/butterbean/inc/controls/class-control-image.php:70
+#: includes/metabox/gallery-metabox/gallery-metabox.php:136
 msgid "Remove image"
 msgstr "Quitar imagen"
 
-#: includes/metabox/gallery-metabox/gallery-metabox.php:135
 #: includes/metabox/butterbean/inc/controls/class-control-image.php:69
+#: includes/metabox/gallery-metabox/gallery-metabox.php:135
 msgid "Change image"
 msgstr "Cambiar imagen"
 

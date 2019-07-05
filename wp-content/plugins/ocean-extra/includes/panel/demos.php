@@ -886,7 +886,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 		 */
 		public static function ajax_demo_data() {
 
-			if ( ! wp_verify_nonce( $_GET['demo_data_nonce'], 'get-demo-data' ) ) {
+			if ( !current_user_can('manage_options')||! wp_verify_nonce( $_GET['demo_data_nonce'], 'get-demo-data' ) ) {
 				die( 'This action was stopped for security purposes.' );
 			}
 
@@ -1100,6 +1100,9 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 		 * @since 1.4.5
 		 */
 		public function ajax_get_import_data() {
+                    if (!current_user_can('manage_options')) {
+                            die( 'This action was stopped for security purposes.' );
+			}
 			check_ajax_referer( 'owp_import_data_nonce', 'security' );
 
 			echo json_encode( 
@@ -1143,7 +1146,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 		 * @since 1.4.5
 		 */
 		public function ajax_import_xml() {
-			if ( ! wp_verify_nonce( $_POST['owp_import_demo_data_nonce'], 'owp_import_demo_data_nonce' ) ) {
+			if ( !current_user_can('manage_options')||! wp_verify_nonce( $_POST['owp_import_demo_data_nonce'], 'owp_import_demo_data_nonce' ) ) {
 				die( 'This action was stopped for security purposes.' );
 			}
 
@@ -1186,7 +1189,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 		 * @since 1.4.5
 		 */
 		public function ajax_import_theme_settings() {
-			if ( ! wp_verify_nonce( $_POST['owp_import_demo_data_nonce'], 'owp_import_demo_data_nonce' ) ) {
+			if (!current_user_can('manage_options') || ! wp_verify_nonce( $_POST['owp_import_demo_data_nonce'], 'owp_import_demo_data_nonce' ) ) {
 				die( 'This action was stopped for security purposes.' );
 			}
 
@@ -1221,7 +1224,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 		 * @since 1.4.5
 		 */
 		public function ajax_import_widgets() {
-			if ( ! wp_verify_nonce( $_POST['owp_import_demo_data_nonce'], 'owp_import_demo_data_nonce' ) ) {
+			if (!current_user_can('manage_options') || ! wp_verify_nonce( $_POST['owp_import_demo_data_nonce'], 'owp_import_demo_data_nonce' ) ) {
 				die( 'This action was stopped for security purposes.' );
 			}
 
@@ -1256,7 +1259,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 		 * @since 1.4.5
 		 */
 		public function ajax_import_forms() {
-			if ( ! wp_verify_nonce( $_POST['owp_import_demo_data_nonce'], 'owp_import_demo_data_nonce' ) ) {
+			if ( !current_user_can('manage_options') ||! wp_verify_nonce( $_POST['owp_import_demo_data_nonce'], 'owp_import_demo_data_nonce' ) ) {
 				die( 'This action was stopped for security purposes.' );
 			}
 
@@ -1291,7 +1294,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 		 * @since 1.4.5
 		 */
 		public function ajax_after_import() {
-			if ( ! wp_verify_nonce( $_POST['owp_import_demo_data_nonce'], 'owp_import_demo_data_nonce' ) ) {
+			if ( !current_user_can('manage_options') ||! wp_verify_nonce( $_POST['owp_import_demo_data_nonce'], 'owp_import_demo_data_nonce' ) ) {
 				die( 'This action was stopped for security purposes.' );
 			}
 

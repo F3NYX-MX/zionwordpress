@@ -147,6 +147,8 @@ if ( ! class_exists( 'Ocean_Extra_Admin_Notice' ) ) {
          * @since   1.4.27
          */
         public static function dismiss_rating_notice() {
+            if ( ! current_user_can('manage_options') )
+                return;
             if ( ! isset( $_GET['ocean_extra_rating_notice'] ) ) {
                 return;
             }
